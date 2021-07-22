@@ -87,15 +87,91 @@
 {
     background-color: red;
 }
-
-@media(min-width: 300px) { 
+/*responsive*/
+/*màn hình nhỏ*/
+@media screen and (max-width: 240px) { 
   
     #header{
-        height: 40px;
+        height: 20px;
     }
     .nav-content{
       
-        line-height: 40px;
+        line-height: 20px;
+        padding: 0 5px;
+        font-weight: 700;
+        font-size: 7px;
+    
+    }
+    .nav-element:hover > .sub-nav
+    {
+        display: block;
+    }
+    .sub-nav-content
+    {
+        padding: 7px 12px;
+        padding-right: 20px;
+        font-size: 7px;
+        
+    }
+    .sub-nav-element:hover> .sub-nav-content
+    {
+        background-color:var(--background-color-when-hover);
+    }
+    .search
+    {
+        line-height: 20px;
+        padding: 0 10px;
+        font-size: 7px;
+    }
+    
+}
+
+/*iphone*/
+@media screen and (max-width: 320px) { 
+  
+    #header{
+        height: 25px;
+    }
+    .nav-content{
+      
+        line-height: 25px;
+        padding: 0 3px;
+        font-weight: 700;
+        font-size: 5px;
+    
+    }
+    .nav-element:hover > .sub-nav
+    {
+        display: block;
+    }
+    .sub-nav-content
+    {
+        padding: 7px 12px;
+        padding-right: 20px;
+        font-size: 10px;
+        
+    }
+    .sub-nav-element:hover> .sub-nav-content
+    {
+        background-color:var(--background-color-when-hover);
+    }
+    .search
+    {
+        line-height: 25px;
+        padding: 0 10px;
+        font-size: 10px;
+    }
+    
+}
+/*table nho */
+@media screen and (max-width: 480px) { 
+  
+    #header{
+        height: 30px;
+    }
+    .nav-content{
+      
+        line-height: 30px;
         padding: 0 10px;
         font-weight: 700;
         font-size: 12px;
@@ -118,23 +194,24 @@
     }
     .search
     {
-        line-height: 40px;
+        line-height: 30px;
         padding: 0 10px;
         font-size: 10px;
     }
     
 }
-@media(min-width: 150px) { 
+/*ipad doc*/
+@media screen and (max-width: 768px) { 
   
     #header{
-        height: 30px;
+        height: 42px;
     }
     .nav-content{
       
-        line-height: 30px;
-        padding: 0 8px;
+        line-height: 42px;
+        padding: 0 10px;
         font-weight: 700;
-        font-size: 10px;
+        font-size: 12px;
     
     }
     .nav-element:hover > .sub-nav
@@ -143,44 +220,9 @@
     }
     .sub-nav-content
     {
-        padding: 6px 10px;
-        padding-right: 15px;
-        font-size: 8px;
-        
-    }
-    .sub-nav-element:hover> .sub-nav-content
-    {
-        background-color:var(--background-color-when-hover);
-    }
-    .search 
-    {
-        line-height: 30px;
-        padding: 0 8px;
-        font-size: 8px;
-    }
-}
-@media(min-width: 1024px) { 
-  
-    #header{
-        height: 50px;
-    }
-    .nav-content{
-      
-        line-height: 50px;
-        padding: 0 10px;
-        font-weight: 700;
-        font-size: 20px;
-    
-    }
-    .nav-element:hover > .sub-nav
-    {
-        display: block;
-    }
-    .sub-nav-content
-    {
-        padding: 6px 10px;
-        padding-right: 15px;
-        font-size: 20px;
+        padding: 7px 12px;
+        padding-right: 20px;
+        font-size: 10px;
         
     }
     .sub-nav-element:hover> .sub-nav-content
@@ -189,8 +231,48 @@
     }
     .search
     {
-        line-height: 50px;
-        padding: 0 18px;
-        font-size: 15px;
+        line-height: 42px;
+        padding: 0 10px;
+        font-size: 10px;
     }
+    
 }
+/* Ipad ngang */
+@media screen and (max-width: 1024px) { 
+  
+    #header{
+        height: 46px;
+    }
+    .nav-content{
+      
+        line-height: 46px;
+        padding: 0 10px;
+        font-weight: 700;
+        font-size: 15px;
+    
+    }
+    .nav-element:hover > .sub-nav
+    {
+        display: block;
+    }
+    .sub-nav-content
+    {
+        padding: 7px 12px;
+        padding-right: 20px;
+        font-size: 10px;
+        
+    }
+    .sub-nav-element:hover> .sub-nav-content
+    {
+        background-color:var(--background-color-when-hover);
+    }
+    .search
+    {
+        line-height: 46px;
+        padding: 0 10px;
+        
+    }
+    
+}
+
+
