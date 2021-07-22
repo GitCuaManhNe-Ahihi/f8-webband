@@ -119,6 +119,10 @@
         padding: 0 10px;
         font-size: 12px;
     }
+    .search:hover
+    {
+        background-color: red;
+    }
 }
 @media(min-width: 150px) { 
   
