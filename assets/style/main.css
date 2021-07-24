@@ -205,6 +205,14 @@ html{
     .nav{
         display: none;
     }
+    .search
+    {
+        font-size: 10px;
+    }
+    .button-menu
+    {
+        font-size: 10px;
+    }
 }
 
 @keyframes changeHeight {
