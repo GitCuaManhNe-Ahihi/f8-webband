@@ -210,7 +210,7 @@
 }
 #slider .sliders .slide:nth-child(1)
 {
-    background: url('https://github.com/GitCuaManhNe-Ahihi/f8-webband/tree/develop/assets/image/ny.jpg') ;
+    background: url(https://github.com/GitCuaManhNe-Ahihi/f8-webband/tree/develop/assets/image/ny.jpg) ;
 }
 #slider .sliders .slide:nth-child(2)
 {
