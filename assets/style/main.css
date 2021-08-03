@@ -217,7 +217,7 @@
 }
 #slider .sliders .slide:nth-child(3)
 {
-    background: url('/assets/image/la.jpg') no-repeat ;
+    background: url('../image/la.jpg') no-repeat ;
 }
 .text-slide
 {
