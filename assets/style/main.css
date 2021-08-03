@@ -210,15 +210,15 @@
 }
 #slider .sliders .slide:nth-child(1)
 {
-    background: url(“https://github.com/GitCuaManhNe-Ahihi/f8-webband/tree/develop/assets/image/ny.jpg”) ;
+    background: url(“../assets/image/ny.jpg”) ;
 }
 #slider .sliders .slide:nth-child(2)
 {
-    background: url(“https://github.com/GitCuaManhNe-Ahihi/f8-webband/tree/develop/assets/image/chicago.jpg”)  ;
+    background: url(“../develop/assets/image/chicago.jpg”)  ;
 }
 #slider .sliders .slide:nth-child(3)
 {
-    background: url(“https://github.com/GitCuaManhNe-Ahihi/f8-webband/tree/develop/assets/image/la.jpg”) ;
+    background: url(“../assets/image/la.jpg”) ;
 }
 .text-slide
 {
