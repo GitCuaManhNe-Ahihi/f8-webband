@@ -209,15 +209,15 @@
 }
 #slider .sliders .slide:nth-child(1)
 {
-    background: url('/assets/image/ny.jpg') no-repeat;
+    background: url('https://github.com/GitCuaManhNe-Ahihi/f8-webband/tree/develop/assets/image/ny.jpg') no-repeat;
 }
 #slider .sliders .slide:nth-child(2)
 {
-    background: url('/assets/image/chicago.jpg') no-repeat ;
+    background: url('https://github.com/GitCuaManhNe-Ahihi/f8-webband/tree/develop/assets/image/chicago.jpg') no-repeat ;
 }
 #slider .sliders .slide:nth-child(3)
 {
-    background: url('../image/la.jpg') no-repeat ;
+    background: url('https://github.com/GitCuaManhNe-Ahihi/f8-webband/tree/develop/assets/image/la.jpg') no-repeat ;
 }
 .text-slide
 {
