@@ -160,17 +160,17 @@
     display: block;
 }
 .Input{
-    position: absolute;
+    position: fixed;
     top: 0;
     left:0;
-    width: 100%;
-    height: 100vh;
     display: none;
     z-index: 11113;
 }
 .Input.active
 {
-    display: block;
+    display: block !important;
+    width: 100%;
+    height: 100vh !important;
 }
 .input-header
 {  position: absolute;
