@@ -4,7 +4,7 @@ const nav = document.querySelector('.nav-responsive')
 const btn_close =document.querySelector('.fa-times')
 const btn_search= document.querySelector('.fa-search')
 const input_search = document.querySelector('.search-input')
-const outInput = document.querySelector('.Input-out')
+const outInput = document.querySelector('.Input')
 btn_bars.addEventListener('click',()=>
 {
     overlay.classList.toggle('active')
