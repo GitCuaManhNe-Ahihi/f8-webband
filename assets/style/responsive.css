@@ -1,0 +1,156 @@
+.nav-responsive
+{   position: fixed;
+    width: 200px;
+    background-color: var(--background-color);
+    height:100vh;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    transition: linear 0.2s;
+    display: none;
+    overflow-y: hidden;
+   
+}
+.overlay
+{
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(19, 14, 14, 0.342);
+    z-index: 2;
+    display: none;
+    opacity: 0;
+    transition: linear 0.2s;
+}
+.nav__header-responsive
+{
+    position: relative;
+    list-style: none;
+    transition: linear 0.2s;
+}
+.nav__header-responsive>li
+{
+    margin:20% 10px;
+    position: relative;
+
+}
+.nav__header-responsive li .nav__header__content-responsive
+{
+    text-decoration: none;
+    color: #fff;;
+    font-family: 'Poppins',sans-serif;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    transition: linear 0.2s;
+}
+.btn-responsive
+{  position: fixed;
+   color: white;
+   font-size: 30px !important;
+   line-height: 46px !important;
+   text-align: center !important;
+   top: 0;
+   left: 20px;
+   height: 46px !important;
+   display: none !important;
+   
+
+}
+.sub__header__nav-responsive
+{   position: absolute;
+    background-color: white;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 -10px;
+    list-style: none;
+    overflow-y: hidden;
+    height: 0;
+     
+}
+.sub__header__nav-responsive .sub__element__header__nav-responsive
+{
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    margin: 0 -10px;
+    transition: linear 0.2s;
+  
+}
+.sub__header__nav-responsive li:hover .sub__element__header__nav-responsive
+{
+   background-color:rgb(201,201,201);
+}
+@keyframes InfadeHeight
+{
+    0%
+    {
+        height: 0;
+    }
+    33%
+    {
+        height: 50%;
+    }
+    66%
+    {
+        height: 70%;
+    }
+    90%
+    {
+        height: 100%;
+    }
+}
+.nav__header-responsive>li:hover .sub__header__nav-responsive
+{
+    height: 159px;
+    animation:InfadeHeight linear 0.1s;
+}
+.nav__header-responsive>li:hover .nav__header__content-responsive:hover
+{
+    color: red;
+}
+.nav-responsive.active
+{
+    display: block !important;
+}
+.overlay.active 
+{
+    display: block !important;
+    opacity: 1;
+}
+
+.fa-times{
+    color: white;
+    font-size: 30px !important;
+    position: absolute;
+    top:-20px;
+    right: 20px;
+    text-decoration: none;
+}
+@media screen and (max-width:740px) {
+    .btn-responsive
+    {
+        display: block !important;
+    }
+    .nav-header
+    {
+        display: none;
+    }
+    .search-btn .fa
+    {
+        position: absolute;
+        right: 8px;
+        top: 0;
+    }
+    .search-input
+    {
+        width: 100vw;
+        left: 0;
+        
+     
+    }
+    
+}
