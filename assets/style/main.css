@@ -205,20 +205,20 @@
   background-size: 100% 100% !important;
   position: relative;
  background-position:center;
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
 
 }
 #slider .sliders .slide:nth-child(1)
 {
-    background: url('../image/ny.jpg') ;
+    background: url(../image/ny.jpg) ;
 }
 #slider .sliders .slide:nth-child(2)
 {
-    background: url('../image/chicago.jpg')  ;
+    background: url(../image/chicago.jpg)  ;
 }
 #slider .sliders .slide:nth-child(3)
 {
-    background: url('../image/la.jpg') ;
+    background: url(../image/la.jpg) ;
 }
 .text-slide
 {
