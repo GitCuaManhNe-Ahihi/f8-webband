@@ -190,7 +190,7 @@
     height: 93vh;
     position: relative;
     z-index: -1;
-   
+    overflow-x: hidden;
     
 }
 #slider .sliders
@@ -240,7 +240,7 @@
 {
     margin-left: 0%;
    transition: linear 0.5s;
-}
+
 #about
 {
    
@@ -293,3 +293,4 @@
    width: 100%;
    
 }
+
