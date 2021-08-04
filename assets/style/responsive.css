@@ -172,3 +172,40 @@
     flex-basis: 80%;
 }
 }
+@media screen and (max-width:750px)
+{
+    .schedule
+    {
+        width:100%;
+    }
+    #tour-date
+    {
+        padding: 50px 0px;
+    }
+    .tickets
+    {
+        width: 90%;
+        margin: auto;
+        flex-wrap: wrap;
+
+    }
+    .ticket
+    {
+        flex-basis: 100%;
+        margin: 20px 0;
+    }
+    .ticket-sell
+    {
+        width: 90%;
+        top: 50px;
+        z-index: 10;
+        height: 450px;
+    }
+    .ticket-sell h1{
+      
+        height: 80px;
+        line-height: 80px;
+        background-color: rgb(0,150,136);
+       
+    }
+}
