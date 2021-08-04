@@ -210,15 +210,15 @@
 }
 #slider .sliders .slide:nth-child(1)
 {
-    background: url(“../assets/image/ny.jpg”) ;
+    background: url('../image/ny.jpg') ;
 }
 #slider .sliders .slide:nth-child(2)
 {
-    background: url("f8-webband/assets/image/chicago.jpg”)  ;
+    background: url('../image/chicago.jpg')  ;
 }
 #slider .sliders .slide:nth-child(3)
 {
-    background: url(“../assets/image/la.jpg”) ;
+    background: url('../image/la.jpg') ;
 }
 .text-slide
 {
