@@ -5,6 +5,7 @@
     height:100vh;
     top: 0;
     left: 0;
+    bottom: 0;
     z-index: 3;
     transition: linear 0.2s;
     display: none;
@@ -154,4 +155,20 @@
      
     }
     
+}
+@media screen and (max-width:750px)
+{
+#about .content
+{
+  width: 100%;
+}
+.third
+{
+    flex-wrap: wrap;
+    width: 100%;
+}
+.third .member
+{
+    flex-basis: 80%;
+}
 }
