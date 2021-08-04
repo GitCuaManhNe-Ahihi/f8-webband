@@ -29,7 +29,7 @@
 #header
 {
     position: fixed;
-    z-index: 1px;
+    z-index: 100;
     height: 46px;
     background-color: var(--background-color);
     top: 0;
@@ -240,4 +240,56 @@
 {
     margin-left: 0%;
    transition: linear 0.5s;
+}
+#about
+{
+   
+    padding: 50px 10px;
+    text-align: center;
+   
+    z-index: -1;
+}
+.heading
+{
+    font-family: 'Poppins',sans-serif;
+}
+.heading h1
+{
+    font-weight: 400;
+    margin: 10px auto;
+}
+.heading p
+{
+    margin-bottom: 10px;
+   opacity: 0.5;
+}
+#about .content
+{
+    width: 740px;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+.third
+{   position: relative;
+    padding: 50px 0px;
+    display: flex;
+    width: 740px;
+    margin: 0 auto;
+    z-index: -10;
+    justify-content: space-around;
+}
+.third p
+{
+    padding: 20px;
+}
+.third .member
+{
+    width: 190px;
+    margin: auto;
+}
+.third .member>img
+{
+   width: 100%;
+   
 }
