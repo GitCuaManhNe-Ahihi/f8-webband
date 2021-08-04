@@ -43,3 +43,22 @@ let slide = document.getElementById('first-slide')
           count=0
       }
  },3500)
+ /*sell*/
+ const btn_buy = document.querySelectorAll('.btn-buy')
+ const sell = document.querySelector('.ticket-sell')
+ const close_sell = document.querySelectorAll('.close-sell')
+
+ for( var vasell of btn_buy)
+ {
+     vasell.addEventListener('click',()=>
+     {
+         sell.classList.toggle('active')
+     })
+ }
+ for( var vaclose of close_sell)
+ {
+     vaclose.addEventListener('click',()=>
+     {
+         sell.classList.toggle('active')
+     })
+ }
