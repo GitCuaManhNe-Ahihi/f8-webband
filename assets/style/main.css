@@ -175,7 +175,7 @@
 .input-header
 {  position: absolute;
   width: 100%;
-  text-align: ce
+  text-align: center;
 }
 .search-input:focus-visible
 {
