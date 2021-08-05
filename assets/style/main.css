@@ -573,3 +573,26 @@
     height: 100vh;
     background: url(../image/map.jpg) no-repeat center/ 100% 100%;
 }
+#footer
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 50px;
+    margin:0 auto;
+    text-align: center;
+}
+.footer-icon
+{
+    padding: 10px 0px;
+}
+.footer-icon .fa
+{
+    width: 20px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+.copy-right a
+{
+    color: black;
+}
