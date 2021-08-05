@@ -209,3 +209,22 @@
        
     }
 }
+@media screen and (max-width:750px)
+{
+    .form-contact
+    {
+        width: 98%;
+        margin: 50px auto;
+        flex-direction: column-reverse;
+    }
+    .form-contact .form,
+    .form-contact .infor-address
+    {
+        width: 100%;
+    }
+    .form-contact .form .name,
+    .form-contact .form .email
+    {
+        width: 48%;
+    }
+}
